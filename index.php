@@ -1,5 +1,4 @@
-<?php
-declare(strict_types=1);
+<?php declare(strict_types=1);
 
 use Scalar\StringObj;
 
@@ -10,7 +9,7 @@ $string = new StringObj('hallo welt');
 
 print_r($string);
 echo "\n";
-print_r($string->strtoupper()->getValue());
+print_r($string->toUpper()->getValue());
 echo "\n";
-print_r($string->strtolower()->getValue());
+print_r($string->toLower()->getValue());
 echo "\n";
